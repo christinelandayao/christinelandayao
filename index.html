@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Christine Landayao | E‑Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christine Landayao | E-Portfolio</title>
 
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #eef2f7, #d9e4f5);
+      color: #333;
+    }
 
-<style>
-body {
-margin: 0;
-font-family: Arial, sans-serif;
-background: linear-gradient(135deg, #EEF2F7, #D9E4F5);
-color: #333;
-}
+    header {
+      background: linear-gradient(135deg, #2c3e50, #4a69bd);
+      color: white;
+      padding: 50px 20px 40px;
+      text-align: center;
+    }
 
-
-header {
-background: #C9E9F4;
-color: #F4A9C7;
-padding: 50px 20px 40px;
-text-align: center;
-}
-
-.profile-pic {
+    /* PROFILE IMAGE */
+    .profile-pic {
       width: 140px;
       height: 140px;
       border-radius: 50%;
@@ -30,157 +29,137 @@ text-align: center;
       object-fit: cover;
       margin-bottom: 15px;
       box-shadow: 0 8px 18px rgba(0,0,0,0.25);
-}
+    }
 
-header h1 {
-margin: 0;
-font-size: 34px;
-}
+    header h1 {
+      margin: 0;
+      font-size: 34px;
+    }
 
+    header p {
+      margin-top: 8px;
+      font-size: 16px;
+      opacity: 0.95;
+    }
 
-header p {
-margin-top: 8px;
-font-size: 16px;
-opacity: 0.95;
-}
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
 
+    section {
+      background: white;
+      padding: 22px;
+      margin-bottom: 20px;
+      border-radius: 14px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
 
-.container {
-max-width: 900px;
-margin: 30px auto;
-padding: 20px;
-}
-
-
-section {
-background: white;
-padding: 22px;
-margin-bottom: 20px;
-border-radius: 14px;
-box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-section:hover {
+    section:hover {
       transform: translateY(-4px);
       box-shadow: 0 10px 22px rgba(0,0,0,0.12);
-}
+    }
 
-h2 {
-color: #2c3e50;
-margin-top: 0;
-}
+    h2 {
+      color: #2c3e50;
+      margin-top: 0;
+    }
 
+    ul {
+      padding-left: 20px;
+      line-height: 1.6;
+    }
 
-ul {
-padding-left: 20px;
-line-height: 1.6;
-}
+    .buttons a {
+      display: inline-block;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 10px 18px;
+      background: #4a69bd;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
 
+    .buttons a:hover {
+      background: #1e3799;
+      transform: translateY(-2px);
+    }
 
-.buttons a {
-display: inline-block;
-margin-right: 10px;
-margin-top: 10px;
-padding: 10px 16px;
-background: #F398BE;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-size: 14px;
-}
-
-
-.buttons a:hover {
-background: #F26699;
-}
-
-
-footer {
-text-align: center;
-padding: 20px;
-font-size: 14px;
-color: #777;
-}
-</style>
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
 </head>
-
 
 <body>
 
+  <header>
+    <!-- MAKE SURE THIS FILE EXISTS IN YOUR REPO -->
+    <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
 
-<header>
-<h1>Christine Landayao</h1>
-<p>Computer Engineering Student</p>
-</header>
+    <h1>Christine Landayao</h1>
+    <p>Newly Graduated Student | Aspiring IT Professional</p>
+  </header>
 
+  <div class="container">
 
-<div class="container">
+    <section>
+      <h2>Personal Profile</h2>
+      <p>
+        I am a motivated and responsible newly graduated student seeking an
+        opportunity to begin my professional career. I am eager to apply my
+        basic knowledge, gain real-world experience, and continuously develop
+        my skills while contributing positively to an organization.
+      </p>
+    </section>
 
+    <section>
+      <h2>Basic Skills and Knowledge</h2>
+      <ul>
+        <li>Basic computer operation and internet use</li>
+        <li>Basic understanding of networking concepts</li>
+        <li>Basic HTML and CSS knowledge</li>
+        <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+        <li>Willing to learn, hardworking, and responsible</li>
+        <li>Good teamwork and communication skills</li>
+      </ul>
+    </section>
 
-<section>
-<h2>Personal Profile</h2>
-<p>
-I am a motivated and responsible newly graduated student
-seeking an opportunity to begin my professional career.
-I am eager to apply my basic knowledge, gain practical
-experience, and continuously develop my skills while 
-contributing positively to an organization. I am hardworking,
-willing to learn, and able to work well both independently
-and as part of a team.
-</p>
-</section>
+    <section>
+      <h2>Projects and Activities</h2>
+      <ul>
+        <li>Created a personal e-portfolio using GitHub Pages</li>
+        <li>Completed basic networking and subnetting activities</li>
+      </ul>
+    </section>
 
+    <section>
+      <h2>Resume and Application Letter</h2>
+      <div class="buttons">
+        <a href="resume.pdf" target="_blank">Download Resume</a>
+        <a href="application-letter.pdf" target="_blank">Download Application Letter</a>
+      </div>
+    </section>
 
-<section>
-<h2>Skills:</h2>
-<ul>
-<li>Basic computer operation and internet use</li>
-<li>Basic understanding of networking concepts</li>
-<li>Basic PYTHON, HTML and CSS knowledge</li>
-<li>Microsoft Office (Word, Excel, PowerPoint)</li>
-<li>Willing to learn, hardworking, and responsible</li>
-<li>Good teamwork and communication skills</li>
-</ul>
-</section>
+    <section>
+      <h2>Contact Information</h2>
+      <p>Email: your@email.com</p>
+      <p>Location: Philippines</p>
+    </section>
 
+  </div>
 
-<section>
-<h2>Projects and Activities</h2>
-<ul>
-<li>1. ----</li>
-<li>2. ----</li>
-</ul>
-</section>
-
-
-<section>
-<h2>Resume and Application Letter</h2>
-<div class="buttons">
-<a href="resume.pdf" target="_blank">Download Resume</a>
-<a href="application-letter.pdf" target="_blank">Download Application Letter</a>
-</div>
-</section>
-
-
-<section>
-<h2>Contact Information</h2>
-<p>Email: landayao.christinetcpe1996@email.com</p>
-<p>Phone Number: 09911521772</p>
-<p>Location: Barotac Viejo, Iloilo, Philippines</p>
-</section>
-
-
-</div>
-
-
-<footer>
-© 2026 Christine Landayao | E‑Portfolio
-</footer>
-
+  <footer>
+    © 2026 Christine Landayao | E-Portfolio
+  </footer>
 
 </body>
 </html>
-
-
-
