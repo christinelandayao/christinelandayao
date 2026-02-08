@@ -10,7 +10,7 @@
 body {
 margin: 0;
 font-family: Arial, sans-serif;
-background: #f4f6f9;
+background: linear-gradient(135deg, #EEF2F7, #D9E4F5);
 color: #333;
 }
 
@@ -18,7 +18,7 @@ color: #333;
 header {
 background: #C9E9F4;
 color: #F4A9C7;
-padding: 40px 20px;
+padding: 50px 20px 40px;
 text-align: center;
 }
 
@@ -34,14 +34,14 @@ text-align: center;
 
 header h1 {
 margin: 0;
-font-size: 36px;
+font-size: 34px;
 }
 
 
 header p {
-margin-top: 10px;
+margin-top: 8px;
 font-size: 16px;
-opacity: 0.9;
+opacity: 0.95;
 }
 
 
@@ -54,12 +54,17 @@ padding: 20px;
 
 section {
 background: white;
-padding: 20px;
+padding: 22px;
 margin-bottom: 20px;
-border-radius: 12px;
-box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+border-radius: 14px;
+box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+section:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
 
 h2 {
 color: #2c3e50;
@@ -69,6 +74,7 @@ margin-top: 0;
 
 ul {
 padding-left: 20px;
+line-height: 1.6;
 }
 
 
@@ -175,5 +181,6 @@ and as part of a team.
 
 </body>
 </html>
+
 
 
