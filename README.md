@@ -18,12 +18,12 @@
 </p>
 
 
-**👩‍💻 About Me**
+👩‍💻 About Me
     I am a 4th year college student taking  Bachelor of Science in Computer Engineering at Western Institute of Technology.
 
     Beyond academics, I enjoy dancing 💃 and cooking 🍳, which help me stay creative and inspired.
 
-** 🏆 Seminars/ Webinars Certificates Gallery ** 
+🏆 Seminars/ Webinars Certificates Gallery
 <p align="center">
   <a href="certificates/cert1.jpg"><img src="certificates/cert1.jpg" width="200"/></a>
   <a href="certificates/cert2.jpg"><img src="certificates/cert2.jpg" width="200"/></a>
@@ -50,8 +50,8 @@
 **📄 Resume and Application Letter**
 
 | **Resume** |
-[View Resume](Resume(Landayao).pdf) 
-| <a href="Resume(Landayao).pdf" download>Download Resume</a> |
+[View Resume](Landayao_Resume.pdf) 
+| <a href="Landayao_Resume.pdf" download>Download Resume</a> |
 
 | **Application Letter** |
 [View Application Letter](application-letter(Landayao).pdf) 
