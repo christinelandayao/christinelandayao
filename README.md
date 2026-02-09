@@ -19,14 +19,9 @@
 
 
 👩‍💻 About Me
+    I am a 4th year college student taking  Bachelor of Science in Computer Engineering at Western Institute of Technology.
 
-I am a 4th year college student taking  
-Bachelor of Science in Computer Engineering
-at Western Institute of Technology.
-
-Beyond academics, I enjoy dancing 💃 and cooking 🍳,  
-which help me stay creative and inspired.
-
+    Beyond academics, I enjoy dancing 💃 and cooking 🍳, which help me stay creative and inspired.
 
  🏆 Seminars/ Webinars Certificates Gallery  
 <p align="center">
@@ -51,8 +46,6 @@ which help me stay creative and inspired.
   <a href="certificates/cert10.jpg"><img src="certificates/cert10.jpg" width="200"/></a>
   <a href="certificates/cert11.jpg"><img src="certificates/cert11.jpg" width="200"/></a>
 </p>
-
-
 
 📄 Resume and Application Letter
 
