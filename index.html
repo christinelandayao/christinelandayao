@@ -41,6 +41,23 @@
       opacity: 0.95;
     }
 
+    
+    .social-icons {
+      margin-top: 12px;
+    }
+    .social-icons a {
+      margin: 0 8px;
+      display: inline-block;
+    }
+    .social-icons img {
+      width: 32px;
+      height: 32px;
+      transition: transform 0.2s ease;
+    }
+    .social-icons img:hover {
+      transform: scale(1.2);
+    }
+
     .container {
       max-width: 900px;
       margin: 30px auto;
@@ -61,8 +78,6 @@
       box-shadow: 0 10px 22px rgba(0,0,0,0.12);
     }
 
-
-
     h2 {
       color: #2c3e50;
       margin-top: 0;
@@ -73,25 +88,59 @@
       line-height: 1.6;
     }
 
-    .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 15px; }
-    .gallery img { width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.2s ease; }
-    .gallery img:hover { transform: scale(1.05); }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+      justify-content: center;
+      align-items: center;
+    }
+    .modal img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    }
+    .modal:target {
+      display: flex;
+    }
 
     .buttons a {
       display: inline-block;
       margin-right: 10px;
       margin-top: 10px;
       padding: 10px 18px;
-      background: #D1EDF8;
+      background: #4a69bd;
       color: white;
       text-decoration: none;
       border-radius: 8px;
       font-size: 14px;
       transition: background 0.2s ease, transform 0.2s ease;
     }
-
     .buttons a:hover {
-      background: #C5D3ED;
+      background: #2c3e50;
       transform: translateY(-2px);
     }
 
@@ -108,9 +157,19 @@
 
   <header>
     <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-
     <h1>Christine Landayao</h1>
-    <p>@tin.n.e</p>
+    
+    <div class="social-icons">
+      <a href="https://facebook.com/clarisse.landayao.1" target="_blank">
+        <img src="icons/facebook.png" alt="Facebook">
+      </a>
+      <a href="https://instagram.com/tin.n.e" target="_blank">
+        <img src="icons/instagram.png" alt="Instagram">
+      </a>
+      <a href="https://tiktok.com/@0.tinn" target="_blank">
+        <img src="icons/tiktok.png" alt="TikTok">
+      </a>
+    </div>
   </header>
 
   <div class="container">
@@ -119,7 +178,7 @@
       <h2>About Me</h2>
       <p>
         I am a 4th year college student taking Bachelor of Science in Computer Engineering at 
-        Western Institute of Techonology. I have hands-on experience in programming languages 
+        Western Institute of Technology. I have hands-on experience in programming languages 
         such as C++, Python, Java, HTML, and CSS, along with familiarity in development tools 
         and platforms including Visual Studio Code, MySQL, and AutoCAD. 
         
@@ -138,22 +197,36 @@
       </ul>
     </section> 
 
-     <section>
+    <section>
       <h2>Certificates Gallery</h2>
       <div class="gallery">
-        <img src="certificates/cert1.jpg" alt="Certificate 1">
-        <img src="certificates/cert2.jpg" alt="Certificate 2">
-        <img src="certificates/cert3.jpg" alt="Certificate 3">
-        <img src="certificates/cert4.jpg" alt="Certificate 4">
-        <img src="certificates/cert5.jpg" alt="Certificate 5">
-        <img src="certificates/cert6.jpg" alt="Certificate 6">
-        <img src="certificates/cert7.jpg" alt="Certificate 7">
-        <img src="certificates/cert8.jpg" alt="Certificate 8">
-        <img src="certificates/cert9.jpg" alt="Certificate 9">
-        <img src="certificates/cert10.jpg" alt="Certificate 10">
-        <img src="certificates/cert11.jpg" alt="Certificate 11">
+        
+        <a href="#cert1"><img src="certificates/cert1.jpg" alt="Certificate 1"></a>
+        <a href="#cert2"><img src="certificates/cert2.jpg" alt="Certificate 2"></a>
+        <a href="#cert3"><img src="certificates/cert3.jpg" alt="Certificate 3"></a>
+        <a href="#cert4"><img src="certificates/cert4.jpg" alt="Certificate 4"></a>
+        <a href="#cert5"><img src="certificates/cert5.jpg" alt="Certificate 5"></a>
+        <a href="#cert6"><img src="certificates/cert6.jpg" alt="Certificate 6"></a>
+        <a href="#cert7"><img src="certificates/cert7.jpg" alt="Certificate 7"></a>
+        <a href="#cert8"><img src="certificates/cert8.jpg" alt="Certificate 8"></a>
+        <a href="#cert9"><img src="certificates/cert9.jpg" alt="Certificate 9"></a>
+        <a href="#cert10"><img src="certificates/cert10.jpg" alt="Certificate 10"></a>
+        <a href="#cert11"><img src="certificates/cert11.jpg" alt="Certificate 11"></a>
         
       </div>
+
+      
+      <div id="cert1" class="modal"><a href="#!" style="width:100%;height:100%;display:flex;justify-content:center;align-items:center;"><img src="certificates/cert1.jpg" alt="Certificate 1"></a></div>
+      <div id="cert2" class="modal"><a href="#!"><img src="certificates/cert2.jpg" alt="Certificate 2"></a></div>
+      <div id="cert3" class="modal"><a href="#!"><img src="certificates/cert3.jpg" alt="Certificate 3"></a></div>
+      <div id="cert4" class="modal"><a href="#!"><img src="certificates/cert4.jpg" alt="Certificate 4"></a></div>
+      <div id="cert5" class="modal"><a href="#!"><img src="certificates/cert5.jpg" alt="Certificate 5"></a></div>
+      <div id="cert6" class="modal"><a href="#!"><img src="certificates/cert6.jpg" alt="Certificate 6"></a></div>
+      <div id="cert7" class="modal"><a href="#!"><img src="certificates/cert7.jpg" alt="Certificate 7"></a></div>
+      <div id="cert8" class="modal"><a href="#!"><img src="certificates/cert8.jpg" alt="Certificate 8"></a></div>
+      <div id="cert9" class="modal"><a href="#!"><img src="certificates/cert9.jpg" alt="Certificate 9"></a></div>
+      <div id="cert10" class="modal"><a href="#!"><img src="certificates/cert10.jpg" alt="Certificate 10"></a></div>
+      <div id="cert11" class="modal"><a href="#!"><img src="certificates/cert11.jpg" alt="Certificate 11"></a></div>
     </section>
 
     <section>
