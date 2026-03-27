@@ -50,63 +50,66 @@
 </p>
 
 <section>
-    <h2>
-        <img src="icons/cisco.png" style="width:28px;vertical-align:middle;margin-right:8px;">
-        Cisco Certifications
-    </h2>
+  <h2>
+    <img src="icons/cisco.png" style="width:28px;vertical-align:middle;margin-right:8px;">
+    Cisco Networking Academy Courses Certifications
+  </h2>
 
-<h3>Python Essentials 1</h3>
-    <div class="gallery">
-        <img src="certificates/python1.jpg" alt="Python Essentials 1 Certificate">
-      </div>
-      <ul>
+  <h3>Python Essentials 1</h3>
+  <div class="gallery">
+    <a href="#python1"><img src="certificates/python1.jpg"></a>
+    <a href="#python1a"><img src="certificates/python1a.jpg"></a>
+  </div>
+  <ul>
         <li>Python syntax and structure</li>
         <li>Variables, data types, and operators</li>
         <li>Conditional statements (if, else, elif)</li>
         <li>Loops (for and while)</li>
         <li>Functions and basic modular programming</li>
         <li>Lists, tuples, and dictionaries</li>
-      </ul>
+  </ul>
 
   <h3>Python Essentials 2</h3>
-     <div class="gallery">
-        <img src="certificates/python2.jpg" alt="Python Essentials 2 Certificate">
-      </div>
-      <ul>
+  <div class="gallery">
+    <a href="#python2"><img src="certificates/python2.jpg"></a>
+    <a href="#python2a"><img src="certificates/python2a.jpg"></a>
+  </div>
+  <ul>
         <li>Object-Oriented Programming (OOP)</li>
         <li>Classes and objects</li>
         <li>Inheritance and encapsulation</li>
         <li>File handling in Python</li>
         <li>Exception handling</li>
         <li>Modules and packages</li>
-      </ul>
+  </ul>
 
   <h3>Computer Hardware Basics</h3>
-      <div class="gallery">
-        <img src="certificates/hardware.jpg" alt="Computer Hardware Basics Certificate">
-      </div>
-      <ul>
+  <div class="gallery">
+    <a href="#hardware"><img src="certificates/hardware.jpg"></a>
+    <a href="#hardware2"><img src="certificates/hardware2.jpg"></a>
+  </div>
+  <ul>
         <li>Computer components and functions</li>
         <li>CPU, RAM, motherboard, storage devices</li>
         <li>Input and output devices</li>
         <li>Computer assembly basics</li>
         <li>Troubleshooting hardware issues</li>
         <li>Peripheral devices and ports</li>
-      </ul>
+  </ul>
 </section>
 
 
 <section>
-      <h2>
-        <img src="icons/udemy.png" style="width:28px;vertical-align:middle;margin-right:8px;">
-        Udemy Certification
-      </h2>
+  <h2>
+    <img src="icons/udemy.png" style="width:28px;vertical-align:middle;margin-right:8px;">
+    Udemy Course Certification
+  </h2>
 
   <h3>Computer Hardware, Operating System, and Networking</h3>
-      <div class="gallery">
-        <img src="certificates/udemy.jpg" alt="Udemy Certificate">
-      </div>
-      <ul>
+  <div class="gallery">
+    <a href="#udemy"><img src="certificates/udemy.jpg"></a>
+  </div>
+  <ul>
         <li>Computer hardware components and architecture</li>
         <li>Operating system functions and types</li>
         <li>Windows and Linux basics</li>
@@ -115,8 +118,38 @@
         <li>Network devices (router, switch, modem)</li>
         <li>Basic troubleshooting techniques</li>
         <li>Network security fundamentals</li>
-      </ul>
+  </ul>
 </section>
+
+
+<!-- MODALS (ZOOM VIEW) -->
+<div id="python1" class="modal">
+  <a href="#"><img src="certificates/python1.jpg"></a>
+</div>
+
+<div id="python1a" class="modal">
+  <a href="#"><img src="certificates/python1a.jpg"></a>
+</div>
+
+<div id="python2" class="modal">
+  <a href="#"><img src="certificates/python2.jpg"></a>
+</div>
+
+<div id="python2a" class="modal">
+  <a href="#"><img src="certificates/python2a.jpg"></a>
+</div>
+
+<div id="hardware" class="modal">
+  <a href="#"><img src="certificates/hardware.jpg"></a>
+</div>
+
+<div id="hardware2" class="modal">
+  <a href="#"><img src="certificates/hardware2.jpg"></a>
+</div>
+
+<div id="udemy" class="modal">
+  <a href="#"><img src="certificates/udemy.jpg"></a>
+</div>
 
 **📄 Resume and Application Letter**
 
