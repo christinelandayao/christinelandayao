@@ -58,7 +58,7 @@
   <h3>Python Essentials 1</h3>
   <div class="gallery">
     <a href="#python1"><img src="certificates/python1.jpg"></a>
-    <a href="#python1a"><img src="certificates/python1a.jpg"></a>
+    <a href="#python1a"><img src="certificates/python1a.png"></a>
   </div>
   <ul>
         <li>Python syntax and structure</li>
@@ -72,7 +72,7 @@
   <h3>Python Essentials 2</h3>
   <div class="gallery">
     <a href="#python2"><img src="certificates/python2.jpg"></a>
-    <a href="#python2a"><img src="certificates/python2a.jpg"></a>
+    <a href="#python2a"><img src="certificates/python2a.png"></a>
   </div>
   <ul>
         <li>Object-Oriented Programming (OOP)</li>
@@ -86,7 +86,7 @@
   <h3>Computer Hardware Basics</h3>
   <div class="gallery">
     <a href="#hardware"><img src="certificates/hardware.jpg"></a>
-    <a href="#hardware2"><img src="certificates/hardware2.jpg"></a>
+    <a href="#hardware2"><img src="certificates/hardware2.png"></a>
   </div>
   <ul>
         <li>Computer components and functions</li>
