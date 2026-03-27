@@ -49,6 +49,75 @@
   <a href="certificates/cert11.jpg"><img src="certificates/cert11.jpg" width="200"/></a>
 </p>
 
+    <section>
+      <h2>
+        <img src="icons/cisco.png" style="width:28px;vertical-align:middle;margin-right:8px;">
+        Cisco Certifications
+      </h2>
+
+      <h3>Python Essentials 1</h3>
+      <div class="gallery">
+        <img src="certificates/python1.jpg" alt="Python Essentials 1 Certificate">
+      </div>
+      <ul>
+        <li>Python syntax and structure</li>
+        <li>Variables, data types, and operators</li>
+        <li>Conditional statements (if, else, elif)</li>
+        <li>Loops (for and while)</li>
+        <li>Functions and basic modular programming</li>
+        <li>Lists, tuples, and dictionaries</li>
+      </ul>
+
+      <h3>Python Essentials 2</h3>
+      <div class="gallery">
+        <img src="certificates/python2.jpg" alt="Python Essentials 2 Certificate">
+      </div>
+      <ul>
+        <li>Object-Oriented Programming (OOP)</li>
+        <li>Classes and objects</li>
+        <li>Inheritance and encapsulation</li>
+        <li>File handling in Python</li>
+        <li>Exception handling</li>
+        <li>Modules and packages</li>
+      </ul>
+
+      <h3>Computer Hardware Basics</h3>
+      <div class="gallery">
+        <img src="certificates/hardware.jpg" alt="Computer Hardware Basics Certificate">
+      </div>
+      <ul>
+        <li>Computer components and functions</li>
+        <li>CPU, RAM, motherboard, storage devices</li>
+        <li>Input and output devices</li>
+        <li>Computer assembly basics</li>
+        <li>Troubleshooting hardware issues</li>
+        <li>Peripheral devices and ports</li>
+      </ul>
+    </section>
+
+
+    <section>
+      <h2>
+        <img src="icons/udemy.png" style="width:28px;vertical-align:middle;margin-right:8px;">
+        Udemy Certification
+      </h2>
+
+      <h3>Computer Hardware, Operating System, and Networking</h3>
+      <div class="gallery">
+        <img src="certificates/udemy.jpg" alt="Udemy Certificate">
+      </div>
+      <ul>
+        <li>Computer hardware components and architecture</li>
+        <li>Operating system functions and types</li>
+        <li>Windows and Linux basics</li>
+        <li>Networking fundamentals</li>
+        <li>IP addressing and subnet basics</li>
+        <li>Network devices (router, switch, modem)</li>
+        <li>Basic troubleshooting techniques</li>
+        <li>Network security fundamentals</li>
+      </ul>
+    </section>
+    
 **📄 Resume and Application Letter**
 
 | **Resume** |
