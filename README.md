@@ -57,8 +57,8 @@
 
   <h3>Python Essentials 1</h3>
   <div class="gallery">
-    <a href="#python1"><img src="certificates/python1.jpg"></a>
-    <a href="#python1a"><img src="certificates/python1a.png"></a>
+    <a href="certificates/python1.jpg" target="_blank"><img src="certificates/python1.jpg" width="200"></a>
+    <a href="certificates/python1a.png" target="_blank"><img src="certificates/python1a.png" width="200"></a>
   </div>
   <ul>
         <li>Python syntax and structure</li>
@@ -71,8 +71,8 @@
 
   <h3>Python Essentials 2</h3>
   <div class="gallery">
-    <a href="#python2"><img src="certificates/python2.jpg"></a>
-    <a href="#python2a"><img src="certificates/python2a.png"></a>
+    <a href="certificates/python2.jpg" target="_blank"><img src="certificates/python2.jpg" width="200"></a>
+    <a href="certificates/python2a.png" target="_blank"><img src="certificates/python2a.png" width="200"></a>
   </div>
   <ul>
         <li>Object-Oriented Programming (OOP)</li>
@@ -85,8 +85,8 @@
 
   <h3>Computer Hardware Basics</h3>
   <div class="gallery">
-    <a href="#hardware"><img src="certificates/hardware.jpg"></a>
-    <a href="#hardware2"><img src="certificates/hardware2.png"></a>
+    <a href="certificates/hardware.jpg" target="_blank"><img src="certificates/hardware.jpg" width="200"></a>
+    <a href="certificates/hardware2.png" target="_blank"><img src="certificates/hardware2.png" width="200"></a>
   </div>
   <ul>
         <li>Computer components and functions</li>
@@ -98,7 +98,6 @@
   </ul>
 </section>
 
-
 <section>
   <h2>
     <img src="icons/udemy.png" style="width:28px;vertical-align:middle;margin-right:8px;">
@@ -107,7 +106,7 @@
 
   <h3>Computer Hardware, Operating System, and Networking</h3>
   <div class="gallery">
-    <a href="#udemy"><img src="certificates/udemy.jpg"></a>
+    <a href="certificates/udemy.jpg" target="_blank"><img src="certificates/udemy.jpg" width="200"></a>
   </div>
   <ul>
         <li>Computer hardware components and architecture</li>
@@ -120,7 +119,6 @@
         <li>Network security fundamentals</li>
   </ul>
 </section>
-
 
 **📄 Resume and Application Letter**
 
