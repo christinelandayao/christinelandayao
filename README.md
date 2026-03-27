@@ -55,7 +55,7 @@
         Cisco Certifications
     </h2>
 
-    <h3>Python Essentials 1</h3>
+<h3>Python Essentials 1</h3>
     <div class="gallery">
         <img src="certificates/python1.jpg" alt="Python Essentials 1 Certificate">
       </div>
@@ -127,6 +127,7 @@
 | **Application Letter** |
 [View Application Letter](application-letter(Landayao).pdf) 
 | <a href="application-letter(Landayao).pdf" download>Download Letter</a> |
+
 
 
 
