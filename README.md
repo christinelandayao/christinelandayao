@@ -49,6 +49,50 @@
   <a href="certificates/cert11.jpg"><img src="certificates/cert11.jpg" width="200"/></a>
 </p>
 
+<style>
+.gallery {
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-bottom:10px;
+}
+
+.gallery img{
+  width:260px;
+  border-radius:8px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.gallery img:hover{
+  transform:scale(1.03);
+}
+
+/* Lightbox */
+.lightbox{
+  display:none;
+  position:fixed;
+  z-index:999;
+  padding-top:60px;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.9);
+}
+
+.lightbox img{
+  margin:auto;
+  display:block;
+  max-width:90%;
+  max-height:85%;
+}
+
+.lightbox:target{
+  display:block;
+}
+</style>
+
 <section>
   <h2>
     <img src="icons/cisco.png" style="width:28px;vertical-align:middle;margin-right:8px;">
@@ -57,44 +101,73 @@
 
   <h3>Python Essentials 1</h3>
   <div class="gallery">
-    <a href="certificates/python1.jpg" target="_blank"><img src="certificates/python1.jpg" width="200"></a>
-    <a href="certificates/python1a.png" target="_blank"><img src="certificates/python1a.png" width="200"></a>
+    <a href="#python1"><img src="certificates/python1.jpg"></a>
+    <a href="#python1a"><img src="certificates/python1a.png"></a>
   </div>
+
+  <div id="python1" class="lightbox">
+    <a href="#"><img src="certificates/python1.jpg"></a>
+  </div>
+
+  <div id="python1a" class="lightbox">
+    <a href="#"><img src="certificates/python1a.png"></a>
+  </div>
+
   <ul>
-        <li>Python syntax and structure</li>
-        <li>Variables, data types, and operators</li>
-        <li>Conditional statements (if, else, elif)</li>
-        <li>Loops (for and while)</li>
-        <li>Functions and basic modular programming</li>
-        <li>Lists, tuples, and dictionaries</li>
+    <li>Python syntax and structure</li>
+    <li>Variables, data types, and operators</li>
+    <li>Conditional statements (if, else, elif)</li>
+    <li>Loops (for and while)</li>
+    <li>Functions and basic modular programming</li>
+    <li>Lists, tuples, and dictionaries</li>
   </ul>
+
 
   <h3>Python Essentials 2</h3>
   <div class="gallery">
-    <a href="certificates/python2.jpg" target="_blank"><img src="certificates/python2.jpg" width="200"></a>
-    <a href="certificates/python2a.png" target="_blank"><img src="certificates/python2a.png" width="200"></a>
+    <a href="#python2"><img src="certificates/python2.jpg"></a>
+    <a href="#python2a"><img src="certificates/python2a.png"></a>
   </div>
+
+  <div id="python2" class="lightbox">
+    <a href="#"><img src="certificates/python2.jpg"></a>
+  </div>
+
+  <div id="python2a" class="lightbox">
+    <a href="#"><img src="certificates/python2a.png"></a>
+  </div>
+
   <ul>
-        <li>Object-Oriented Programming (OOP)</li>
-        <li>Classes and objects</li>
-        <li>Inheritance and encapsulation</li>
-        <li>File handling in Python</li>
-        <li>Exception handling</li>
-        <li>Modules and packages</li>
+    <li>Object-Oriented Programming (OOP)</li>
+    <li>Classes and objects</li>
+    <li>Inheritance and encapsulation</li>
+    <li>File handling in Python</li>
+    <li>Exception handling</li>
+    <li>Modules and packages</li>
   </ul>
+
 
   <h3>Computer Hardware Basics</h3>
   <div class="gallery">
-    <a href="certificates/hardware.jpg" target="_blank"><img src="certificates/hardware.jpg" width="200"></a>
-    <a href="certificates/hardware2.png" target="_blank"><img src="certificates/hardware2.png" width="200"></a>
+    <a href="#hardware"><img src="certificates/hardware.jpg"></a>
+    <a href="#hardware2"><img src="certificates/hardware2.png"></a>
   </div>
+
+  <div id="hardware" class="lightbox">
+    <a href="#"><img src="certificates/hardware.jpg"></a>
+  </div>
+
+  <div id="hardware2" class="lightbox">
+    <a href="#"><img src="certificates/hardware2.png"></a>
+  </div>
+
   <ul>
-        <li>Computer components and functions</li>
-        <li>CPU, RAM, motherboard, storage devices</li>
-        <li>Input and output devices</li>
-        <li>Computer assembly basics</li>
-        <li>Troubleshooting hardware issues</li>
-        <li>Peripheral devices and ports</li>
+    <li>Computer components and functions</li>
+    <li>CPU, RAM, motherboard, storage devices</li>
+    <li>Input and output devices</li>
+    <li>Computer assembly basics</li>
+    <li>Troubleshooting hardware issues</li>
+    <li>Peripheral devices and ports</li>
   </ul>
 </section>
 
@@ -106,17 +179,22 @@
 
   <h3>Computer Hardware, Operating System, and Networking</h3>
   <div class="gallery">
-    <a href="certificates/udemy.jpg" target="_blank"><img src="certificates/udemy.jpg" width="200"></a>
+    <a href="#udemy"><img src="certificates/udemy.jpg"></a>
   </div>
+
+  <div id="udemy" class="lightbox">
+    <a href="#"><img src="certificates/udemy.jpg"></a>
+  </div>
+
   <ul>
-        <li>Computer hardware components and architecture</li>
-        <li>Operating system functions and types</li>
-        <li>Windows and Linux basics</li>
-        <li>Networking fundamentals</li>
-        <li>IP addressing and subnet basics</li>
-        <li>Network devices (router, switch, modem)</li>
-        <li>Basic troubleshooting techniques</li>
-        <li>Network security fundamentals</li>
+    <li>Computer hardware components and architecture</li>
+    <li>Operating system functions and types</li>
+    <li>Windows and Linux basics</li>
+    <li>Networking fundamentals</li>
+    <li>IP addressing and subnet basics</li>
+    <li>Network devices (router, switch, modem)</li>
+    <li>Basic troubleshooting techniques</li>
+    <li>Network security fundamentals</li>
   </ul>
 </section>
 
