@@ -122,35 +122,6 @@
 </section>
 
 
-<!-- MODALS (ZOOM VIEW) -->
-<div id="python1" class="modal">
-  <a href="#"><img src="certificates/python1.jpg"></a>
-</div>
-
-<div id="python1a" class="modal">
-  <a href="#"><img src="certificates/python1a.jpg"></a>
-</div>
-
-<div id="python2" class="modal">
-  <a href="#"><img src="certificates/python2.jpg"></a>
-</div>
-
-<div id="python2a" class="modal">
-  <a href="#"><img src="certificates/python2a.jpg"></a>
-</div>
-
-<div id="hardware" class="modal">
-  <a href="#"><img src="certificates/hardware.jpg"></a>
-</div>
-
-<div id="hardware2" class="modal">
-  <a href="#"><img src="certificates/hardware2.jpg"></a>
-</div>
-
-<div id="udemy" class="modal">
-  <a href="#"><img src="certificates/udemy.jpg"></a>
-</div>
-
 **📄 Resume and Application Letter**
 
 | **Resume** |
