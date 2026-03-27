@@ -49,14 +49,14 @@
   <a href="certificates/cert11.jpg"><img src="certificates/cert11.jpg" width="200"/></a>
 </p>
 
-    <section>
-      <h2>
+<section>
+    <h2>
         <img src="icons/cisco.png" style="width:28px;vertical-align:middle;margin-right:8px;">
         Cisco Certifications
-      </h2>
+    </h2>
 
-      <h3>Python Essentials 1</h3>
-      <div class="gallery">
+    <h3>Python Essentials 1</h3>
+    <div class="gallery">
         <img src="certificates/python1.jpg" alt="Python Essentials 1 Certificate">
       </div>
       <ul>
@@ -68,8 +68,8 @@
         <li>Lists, tuples, and dictionaries</li>
       </ul>
 
-      <h3>Python Essentials 2</h3>
-      <div class="gallery">
+  <h3>Python Essentials 2</h3>
+     <div class="gallery">
         <img src="certificates/python2.jpg" alt="Python Essentials 2 Certificate">
       </div>
       <ul>
@@ -81,7 +81,7 @@
         <li>Modules and packages</li>
       </ul>
 
-      <h3>Computer Hardware Basics</h3>
+  <h3>Computer Hardware Basics</h3>
       <div class="gallery">
         <img src="certificates/hardware.jpg" alt="Computer Hardware Basics Certificate">
       </div>
@@ -93,16 +93,16 @@
         <li>Troubleshooting hardware issues</li>
         <li>Peripheral devices and ports</li>
       </ul>
-    </section>
+</section>
 
 
-    <section>
+<section>
       <h2>
         <img src="icons/udemy.png" style="width:28px;vertical-align:middle;margin-right:8px;">
         Udemy Certification
       </h2>
 
-      <h3>Computer Hardware, Operating System, and Networking</h3>
+  <h3>Computer Hardware, Operating System, and Networking</h3>
       <div class="gallery">
         <img src="certificates/udemy.jpg" alt="Udemy Certificate">
       </div>
@@ -116,8 +116,8 @@
         <li>Basic troubleshooting techniques</li>
         <li>Network security fundamentals</li>
       </ul>
-    </section>
-    
+</section>
+
 **📄 Resume and Application Letter**
 
 | **Resume** |
